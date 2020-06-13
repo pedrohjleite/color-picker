@@ -27,6 +27,10 @@ export const ColorText = styled.h3`
   background-color: white;
   border-radius: 10px 0 0 0;
   padding: 10px;
+
+  @media (max-width: 600px) {
+    transform: rotateX(45deg);
+  };
 `
 
 export const Color = styled.div<ColorProps>`
@@ -39,6 +43,10 @@ export const Color = styled.div<ColorProps>`
 
   width: 18vw;
   height: 20vh;
+
+  @media (max-width: 600px) {
+    width: 36vw;
+  };
 `
 
 export const ColorsContainer = styled.div`
