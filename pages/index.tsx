@@ -20,6 +20,7 @@ const App: React.FC = () => {
     <>
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"></link>
+        <script data-ad-client="ca-pub-7796659044812968" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <title>Color picker</title>
       </head>
       <GlobalStyle />
