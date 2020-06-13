@@ -8,6 +8,17 @@ export const Title = styled.h1`
   color: #fff;
 `;
 
+export const ClearButton = styled.button`
+  height: 30px;
+  width: 60px;
+  margin-top: 20px;
+  color: #fff;
+  border: solid 2px #fff;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  background: #0C0024;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;

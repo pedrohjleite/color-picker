@@ -10,7 +10,8 @@ import {
   ColorText,
   Title,
   Names,
-  Nois
+  Nois,
+  ClearButton,
 } from '../styles/components'
 
 const App: React.FC = () => {
@@ -26,6 +27,7 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Container>
         <Title>Color Picker</Title>
+        <ClearButton type="button" onClick={() => setColors([])}>Clear</ClearButton>
         <ColorPickerInput 
           type="color"
           onChange={(event) =>
