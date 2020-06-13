@@ -11,7 +11,7 @@ import {
   Title,
   Names,
   Nois
-} from './styles'
+} from '../styles/components'
 
 const App: React.FC = () => {
   const [colors, setColors] = useState([])
