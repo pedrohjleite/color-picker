@@ -18,7 +18,10 @@ const App: React.FC = () => {
 
   return (
     <>
-      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"></link>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"></link>
+        <title>Color picker</title>
+      </head>
       <GlobalStyle />
       <Container>
         <Title>Color Picker</Title>
